@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Selleniun_start_projects.Selleniun_start_projects.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.758 s - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.644 s <<< FAILURE! - in Selleniun_start_projects.Selleniun_start_projects.AppTest
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)(Selleniun_start_projects.Selleniun_start_projects.AppTest)  Time elapsed: 0.138 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\peter\git\Selleniun_start_projects\?C:\selenium\geckodriver.exe
+	at Selleniun_start_projects.Selleniun_start_projects.AppTest.setup(AppTest.java:28)
+
